@@ -5,7 +5,7 @@ WGET     = wget --timestamping
 
 all: test
 
-test: ert.log
+test: ert.el
 	$(EMACS) --eval '(load-file "test-json-rpc.el")'
 
 ert.el:
