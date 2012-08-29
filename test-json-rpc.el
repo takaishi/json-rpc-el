@@ -2,6 +2,6 @@
 (require 'json-rpc)
 
 (ert-deftest json-rpc ()
-  (should (equal "1" "1")))
+  (should (equal "1" "2")))
 
 (ert-run-tests-batch-and-exit)
